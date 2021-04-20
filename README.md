@@ -8,12 +8,19 @@ With the first argument you can choose who starts the game(1 for the bot and 0 f
 
 # How to play
 
-The game starts with the opponents in the middle on the opposite sites of the board:
+The game starts with the opponents in the middle on the opposite sites of the board, p1 is player one and p2 is player two:
 
-|       | player one           |   |
+|       | p1          |   |
 | ------------- |:-------------:| -----:|
 |        |  |  |
-| |       |  |
-|  |     player two   |  |
+|  |     p2   |  |
+
+A turn is composed of a move to a neighboring tile and an exclusion of any empty field from the game:
+
+|       |         |   |
+| ------------- |:-------------:| -----:|
+|        | p1  |  |
+| x |     p2   |  |
+
 
 Have fun!
